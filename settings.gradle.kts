@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         maven("https://mirrors.cloud.tencent.com/nexus/repository/maven-public/")
+        maven("https://modinmobilests.github.io/maven/")
         google()
         mavenCentral()
         mavenLocal()
